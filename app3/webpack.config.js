@@ -12,6 +12,7 @@ module.exports = {
   output: {
     uniqueName: "app3",
     publicPath: "auto",
+    scriptType: "text/javascript",
   },
   optimization: {
     runtimeChunk: false,
@@ -32,7 +33,7 @@ module.exports = {
       name: "app3",
       filename: "remoteEntry.js",
       exposes: {
-        "./Component": ".//src/app/app.component.ts",
+        "./inject": "./src/inject.ts",
       },
 
       // For hosts (please adjust)
