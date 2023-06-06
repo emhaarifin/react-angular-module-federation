@@ -33,7 +33,7 @@ module.exports = {
       name: "app3",
       filename: "remoteEntry.js",
       exposes: {
-        "./inject": "./src/inject.ts",
+        "./injectApp3": "./src/injectApp3.ts",
       },
 
       // For hosts (please adjust)

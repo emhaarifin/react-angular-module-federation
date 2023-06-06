@@ -1,8 +1,12 @@
 import App from './App';
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-const injector = parentElementId =>
-  ReactDOM.render(<App />, document.getElementById(parentElementId));
+import { createRoot } from "react-dom/client";
+const injector = parentElementId => {
+    const container = document.getElementById('parent');
+    const root = createRoot(container)
+
+    root.render(<App/>);
+}
 
 export default injector;

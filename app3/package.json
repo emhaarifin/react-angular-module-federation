@@ -1,5 +1,5 @@
 {
-  "name": "app3",
+  "name": "@basic-host-remote/app3",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

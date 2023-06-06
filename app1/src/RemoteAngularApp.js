@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import angularInject from "app3/inject";
+import angularInject from "app3/injectApp3";
 
 const parentElementId = "parent";
 
-const RemoteReactApp = () => {
+const RemoteAngularApp = () => {
   useEffect(() => {
     angularInject();
   }, []);
@@ -11,4 +11,4 @@ const RemoteReactApp = () => {
   return <app-root />;
 };
 
-export default RemoteReactApp;
+export default RemoteAngularApp;

@@ -8,7 +8,7 @@
   "files": [
     "src/main.ts",
     "src/polyfills.ts",
-    "src/inject.ts"
+    "src/injectApp3.ts"
   ],
   "include": [
     "src/**/*.d.ts"

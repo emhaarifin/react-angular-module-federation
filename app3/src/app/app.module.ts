@@ -17,7 +17,7 @@ import { Component2Component } from './component2/component2.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: '/angular-app'}],
+  providers: [{provide: APP_BASE_HREF, useValue: '/app3'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
