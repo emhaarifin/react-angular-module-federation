@@ -11,7 +11,6 @@ sharedMappings.register(path.join(__dirname, "tsconfig.json"), [
 
 module.exports = {
   output: {
-    uniqueName: 'app4',
     publicPath: 'auto',
     scriptType: 'text/javascript'
   },

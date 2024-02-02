@@ -1,5 +1,5 @@
 {
-  "name": "@basic-host-remote/app2",
+  "name": "@kopra-mfe/app2",
   "version": "0.0.0",
   "private": true,
   "devDependencies": {

@@ -36,11 +36,11 @@ const useDynamicScript = url => {
   React.useEffect(() => {
     if (!url) return;
 
-    // if (urlCache.has(url)) {
-    //   setReady(true);
-    //   setErrorLoading(false);
-    //   return;
-    // }
+    if (urlCache.has(url)) {
+      setReady(true);
+      setErrorLoading(false);
+      return;
+    }
 
     setReady(false);
     setErrorLoading(false);

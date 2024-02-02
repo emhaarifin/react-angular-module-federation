@@ -10,20 +10,19 @@ sharedMappings.register(path.join(__dirname, "tsconfig.json"), [
 
 module.exports = {
   output: {
-    uniqueName: "app3",
     publicPath: "auto",
     scriptType: "text/javascript",
   },
   optimization: {
     runtimeChunk: false,
   },
+  experiments: {
+    outputModule: true,
+  },
   resolve: {
     alias: {
       ...sharedMappings.getAliases(),
     },
-  },
-  experiments: {
-    outputModule: true,
   },
   plugins: [
     new ModuleFederationPlugin({
